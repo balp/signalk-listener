@@ -95,7 +95,7 @@ async def display_data(storage: SignalKStorage, config):
             if 'value'  in _data and 'name' in _data['value']:
                 name_ = _data['value']['name']
             mmsi_ = ''
-            if 'value'  in _data and 'mmsi' in _data['value']*:
+            if 'value'  in _data and 'mmsi' in _data['value']:
                 mmsi_ = _data['value']['mmsi']
             if 'navigation' in _data:
                 navigation_ = _data['navigation']
